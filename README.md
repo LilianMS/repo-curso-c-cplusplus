@@ -1,4 +1,4 @@
-# Labs - Formação C e C++
+# Labs | Formação C e C++ | [DIO](https://github.com/digitalinnovationone)
 
 ### Módulo I - Paradigmas da Programação
 
@@ -9,7 +9,7 @@ Desenvolvendo um Projeto com o Paradigma de Programação Orientado à Aspectos 
 
 ### Descrição
 
-Atualmente, estou estudando e realizado projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, pois meu próximo projeto na [42sp](https://github.com/42sp) é o ```MiniShell```, trabalho em equipe que realizarei com a [Letícia](https://github.com/lesampietro).
+Atualmente, estou estudando e realizado projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, pois meu próximo projeto na [42sp](https://github.com/42sp) é o ```MiniShell```, trabalho em equipe que realizarei com a [Letícia](https://github.com/lesampietro). Além disso, estou aprimorando os conhecimentos sobre documentação, controle de versão, Git e GitHub.
 
 Este código aplica a **programação orientada a aspectos (AOP)** de forma simples, separando preocupações transversais como logging e erros.
 
