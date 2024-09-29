@@ -4,22 +4,21 @@
 
 ```
 Desenvolvendo um Projeto com o Paradigma de Programação Orientado à Aspectos (AOP)
-
 ```
-- [MicroShell sob AOP](https://github.com/LilianMS/repo-curso-c-cplusplus/blob/main/microshell.c)
+- [MicroShell com AOP](https://github.com/LilianMS/repo-curso-c-cplusplus/blob/main/microshell.c)
 
 ### Descrição
 
-Atualmente estou estudando e realizado projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, pois meu próximo projeto na @42sp é o ```MiniShell```, trabalho em equipe que realizarei com a @lesampietro.
+Atualmente, estou estudando e realizado projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, pois meu próximo projeto na [42sp](https://github.com/42sp) é o ```MiniShell```, trabalho em equipe que realizarei com a [Letícia](https://github.com/lesampietro).
 
-Este código aplica a **orientação a aspectos** de forma simples, separando preocupações transversais como logging e erros.
+Este código aplica a **programação orientada a aspectos (AOP)** de forma simples, separando preocupações transversais como logging e erros.
 
 - Objetivos
 
     1. Log de execução: Registrar comandos sendo executados.
     2. Centralização do tratamento de erros: Isolar o tratamento de erros em uma função separada.
 
-- Feito
+- Realizado
 
     1. Função log_execucao:
         Adiciona um log simples cada vez que um comando é executado. Isso permite rastrear a execução de comandos sem modificar a função execve diretamente.
@@ -44,7 +43,6 @@ Este código aplica a **orientação a aspectos** de forma simples, separando pr
 
 ```
 gcc -o microshell microshell.c
-
 ```
 
 Se houver algum erro de compilação, o terminal exibirá mensagens que você pode usar para depurar o código.
@@ -55,7 +53,6 @@ Exemplo de execução:
 
 ```
 ./minishell_micro /bin/ls ;
-
 ```
 
 >Esse comando deve listar o diretório atual e exibir um log da execução do comando /bin/ls.
@@ -65,7 +62,6 @@ Exemplo de execução:
 ```
 ./minishell_micro cd /tmp ;
 ./minishell_micro /bin/ls | /usr/bin/wc ;
-
 ```
 
 >O primeiro comando altera o diretório atual para /tmp e deve registrar o log da execução do cd.
@@ -76,9 +72,7 @@ Exemplo de execução:
 - Mudança de diretório inválida:
 
 ```
-
 ./minishell_micro cd nonexistent_dir ;
-
 ```
 
 >Deve resultar em uma mensagem de erro dizendo que não pode mudar o diretório.
@@ -86,8 +80,7 @@ Exemplo de execução:
 - Comando inválido:
 
 ```
-    ./minishell_micro nonexistent_command ;
-
+./minishell_micro nonexistent_command ;
 ```
 
 >Isso deve retornar um erro de que o comando não pode ser executado, com a mensagem de erro adequada.
