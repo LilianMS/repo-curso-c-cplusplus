@@ -1,6 +1,7 @@
 # Labs | Formação C e C++ | [DIO](https://github.com/digitalinnovationone)
 
 ### Módulo I - Paradigmas da Programação
+#### Programação Orientada à Aspectos - AOP
 
 ```
 Desenvolvendo um Projeto com o Paradigma de Programação Orientado à Aspectos (AOP)
