@@ -116,7 +116,7 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 Um projeto interativo que aguarda respostas dos jogadores e fornece feedback ao usuário pelo terminal.
 Podemos visualizar o jogo enquanto é jogado mesmo via terminal do bash.
 
-![Jogo da Velha]([image/jogo-da-velha-em-c.png](jogo-da-velha.c))
+[![Jogo da Velha](image/jogo-da-velha-em-c.png)](jogo-da-velha.c)
 
 
 ---
