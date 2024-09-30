@@ -124,7 +124,9 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 
 ### _Lógica de programação Utilizando Linguagem C_
 
-[Calculadora Simples em Linguagem C](calculadora-simples.c)
+[Calculadora Simples em Linguagem C](calculadora-simples.c) - Este código mantém um loop até que o usuário escolha sair do programa ou entre com dados válidos para uma expressão matemática simples. O programa trata erros de input, fornecendo feedback ao usuário.  
+
+
 
 [Arquivo executável](calculadora)
 
