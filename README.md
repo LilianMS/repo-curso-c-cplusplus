@@ -1,5 +1,15 @@
 # Labs | Formação C e C++ | [DIO](https://github.com/digitalinnovationone)
 
+[**Módulo I**](https://github.com/LilianMS/repo-curso-c-cplusplus/edit/main/README.md#m%C3%B3dulo-i---paradigmas-da-programa%C3%A7%C3%A3o) - _MicroShell com AOP_
+
+[**Módulo II**](https://github.com/LilianMS/repo-curso-c-cplusplus/edit/main/README.md#m%C3%B3dulo-ii) - _Jogo da Velha em Linguagem C_
+
+[**Módulo III**](https://github.com/LilianMS/repo-curso-c-cplusplus/edit/main/README.md#m%C3%B3dulo-iii) - _Calculadora Simples em Linguagem C_
+
+<!-- [Módulo IV]() -->
+
+---
+
 ### Módulo I - Paradigmas da Programação
 #### Programação Orientada à Aspectos - AOP
 
@@ -94,10 +104,26 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 [LOG] Executando comando: /bin/ls
 ```
 
+
 ----
 
-### Módulo II - Aplicações da Linguagem C/C++ no Mundo Real
+
+## Módulo II
+
+### _Aplicações da Linguagem C/C++ no Mundo Real_
 
 [Jogo da Velha em Linguagem C](jogo-da-velha.c)
 
 ![Jogo da Velha](image/jogo-da-velha-em-c.png)
+
+
+---
+
+
+## Módulo III
+
+### _Lógica de programação Utilizando Linguagem C_
+
+[Calculadora Simples em Linguagem C](calculadora-simples.c)
+
+[Arquivo executável](calculadora)
