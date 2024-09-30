@@ -93,3 +93,11 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 ```
 [LOG] Executando comando: /bin/ls
 ```
+
+----
+
+### Módulo II - Aplicações da Linguagem C/C++ no Mundo Real
+
+[Jogo da Velha em Linguagem C](jogo-da-velha.c)
+
+![Jogo da Velha](image/jogo-da-velha-em-c.png)
