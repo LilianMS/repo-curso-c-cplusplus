@@ -112,9 +112,11 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 
 ### _Aplicações da Linguagem C/C++ no Mundo Real_
 
-[Jogo da Velha em Linguagem C](jogo-da-velha.c)
+[Jogo da Velha em Linguagem C](jogo-da-velha.c) - O resultado deste projeto ficou bem divertido! 🎉 
+Um projeto interativo que aguarda respostas dos jogadores e fornece feedback ao usuário pelo terminal.
+Podemos visualizar o jogo enquanto é jogado mesmo via terminal do bash.
 
-![Jogo da Velha](image/jogo-da-velha-em-c.png)
+![Jogo da Velha]([image/jogo-da-velha-em-c.png](jogo-da-velha.c))
 
 
 ---
@@ -124,9 +126,8 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 
 ### _Lógica de programação Utilizando Linguagem C_
 
-[Calculadora Simples em Linguagem C](calculadora-simples.c) - Este código mantém um loop até que o usuário escolha sair do programa ou entre com dados válidos para uma expressão matemática simples. O programa trata erros de input, fornecendo feedback ao usuário.  
-
-
+[Calculadora Simples em Linguagem C](calculadora-simples.c) - Este código mantém um loop até que o usuário escolha sair do programa ou entre com dados válidos para uma expressão matemática simples.
+O programa trata erros de input, fornecendo feedback ao usuário.  
 
 [Arquivo executável](calculadora)
 
