@@ -127,3 +127,4 @@ Os logs devem aparecer no terminal, registrando a execução de comandos e qualq
 [Calculadora Simples em Linguagem C](calculadora-simples.c)
 
 [Arquivo executável](calculadora)
+
