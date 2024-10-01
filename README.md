@@ -131,3 +131,12 @@ O programa trata erros de input, fornecendo feedback ao usuário.
 
 [Arquivo executável](calculadora)
 
+---
+
+## Módulo IV
+
+### _Linguagem C | Sistemas Embarcados | Arduino_
+
+[Projeto com Arduino](projeto-arduino.md) 
+
+
