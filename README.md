@@ -6,7 +6,7 @@
 
 [**Módulo III**](https://github.com/LilianMS/repo-curso-c-cplusplus/blob/main/README.md#m%C3%B3dulo-iii) - _Calculadora Simples em Linguagem C_
 
-<!-- [Módulo IV]() -->
+[Módulo IV](https://github.com/LilianMS/repo-curso-c-cplusplus/blob/main/README.md#m%C3%B3dulo-iv)
 
 ---
 
