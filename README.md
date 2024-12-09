@@ -20,7 +20,7 @@ Desenvolvendo um Projeto com o Paradigma de Programação Orientado à Aspectos 
 
 ### Descrição
 
-Atualmente, estou estudando e realizado projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, pois meu próximo projeto na [42sp](https://github.com/42sp) é o ```MiniShell```, trabalho em equipe que realizarei com a [Letícia](https://github.com/lesampietro). Além disso, estou aprimorando os conhecimentos sobre documentação, controle de versão, Git e GitHub.
+Atualmente, estou estudando e desenvolvendp projetos em ```Linguagem C``` e como não estou estudando C++ ainda e não domino a **programação orientada a objetos**, decidi realizar o exercício com uma aplicação conforme meus interesses atuais. Este documento é parte de um estudo muito simples sobre o funcionamento do ```bash```, um microshell. Além disso, estou aprimorando os conhecimentos sobre documentação, controle de versão, Git e GitHub.
 
 Este código aplica a **programação orientada a aspectos (AOP)** de forma simples, separando preocupações transversais como logging e erros.
 
@@ -63,7 +63,7 @@ Se houver algum erro de compilação, o terminal exibirá mensagens que você po
 Exemplo de execução:
 
 ```
-./minishell_micro /bin/ls ;
+./microshell /bin/ls ;
 ```
 
 >Esse comando deve listar o diretório atual e exibir um log da execução do comando /bin/ls.
@@ -71,8 +71,8 @@ Exemplo de execução:
 3. **Testar com múltiplos comandos** | Tente executar comandos diferentes, como:
 
 ```
-./minishell_micro cd /tmp ;
-./minishell_micro /bin/ls | /usr/bin/wc ;
+./microshell cd /tmp ;
+./microshell /bin/ls | /usr/bin/wc ;
 ```
 
 >O primeiro comando altera o diretório atual para /tmp e deve registrar o log da execução do cd.
@@ -83,7 +83,7 @@ Exemplo de execução:
 - Mudança de diretório inválida:
 
 ```
-./minishell_micro cd nonexistent_dir ;
+./microshell cd nonexistent_dir ;
 ```
 
 >Deve resultar em uma mensagem de erro dizendo que não pode mudar o diretório.
@@ -91,7 +91,7 @@ Exemplo de execução:
 - Comando inválido:
 
 ```
-./minishell_micro nonexistent_command ;
+./microshell nonexistent_command ;
 ```
 
 >Isso deve retornar um erro de que o comando não pode ser executado, com a mensagem de erro adequada.
